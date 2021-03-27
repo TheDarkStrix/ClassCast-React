@@ -7,11 +7,13 @@ import Training from "./components/sidebar/training/training";
 import Dots from "./components/sidebar/dots/dots";
 import Trainers from "./components/sidebar/trainers/trainers";
 import Section from "./components/section/section";
+import LeftContent from "./components/leftContent/leftContent";
 
 function App() {
   return (
     <div className="App">
       <Container>
+        <LeftContent />
         <SideBarContainer>
           <Section>
             <Account />
