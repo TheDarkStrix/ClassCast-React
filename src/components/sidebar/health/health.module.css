@@ -1,0 +1,96 @@
+.healthContainer {
+  margin-top: 3em;
+}
+
+.health,
+.heading,
+.trainersHeading {
+  font-size: 1.2em;
+}
+
+.section3Container {
+  width: 100%;
+  display: flex;
+}
+
+.section3Container .section3:first-of-type {
+  padding: 15px 15px 15px 0;
+}
+
+.section3Container .section3:last-of-type {
+  padding: 15px 0 15px 15px;
+}
+
+.section3 {
+  width: 33.33%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.vd {
+  border-left: 2px solid var(--gray);
+}
+
+.data {
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.slider {
+  height: 6px;
+  border-radius: 6px;
+  width: 100%;
+  background-color: var(--gray);
+  position: relative;
+  overflow: hidden;
+}
+
+.slider::after {
+  content: "";
+  border-radius: 6px;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.holder {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1em 0;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  display: block;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  justify-content: center;
+}
+
+.icon img {
+  max-width: 100%;
+}
+
+.attr {
+  margin: 0 1em;
+}
+
+.slider_red::after {
+  background-color: var(--red);
+}
+
+.slider_blue::after {
+  background-color: var(--blue);
+  width: 80%;
+}
+
+.slider_green::after {
+  background-color: var(--green);
+  width: 40%;
+}
