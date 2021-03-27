@@ -1,0 +1,61 @@
+.bubbleContainer {
+  position: relative;
+}
+.bubble {
+  background-color: #fefbf1;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin: 2em 0;
+  position: relative;
+  z-index: 3;
+}
+
+.leftBubble,
+.rightBubble {
+  width: 50%;
+}
+
+.leftBubble img {
+  max-width: 100%;
+}
+
+.bubblebtn {
+  display: flex;
+  justify-content: center;
+  padding-right: 1em;
+}
+
+.bubblebtn .button {
+  padding: 0.6em 1em;
+  color: white;
+  font-weight: 500;
+  margin-top: 20px;
+  background-color: #fac952;
+  border: 2px solid #fdcb58;
+  border-radius: 14px;
+}
+
+.rightBubbleText {
+  padding-right: 1em;
+  color: #686979;
+}
+
+.bubbleBoxBehind {
+  width: 92%;
+  height: 100%;
+  position: absolute;
+  /* display: flex; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 54%;
+  margin-bottom: 12px;
+  z-index: 2;
+  border-radius: 20px;
+}
+
+.bubblelightbg {
+  background-color: #ffedc4;
+}

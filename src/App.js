@@ -1,3 +1,4 @@
+import Bubble from "./components/bubble/bubble";
 import Container from "./components/container/container";
 import Account from "./components/sidebar/account/account";
 import Health from "./components/sidebar/health/health";
@@ -11,6 +12,7 @@ function App() {
           <section className="section">
             <Account />
             <Health />
+            <Bubble />
           </section>
         </SideBarContainer>
       </Container>
