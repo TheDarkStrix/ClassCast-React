@@ -1,0 +1,93 @@
+.trainers {
+  padding: 15px;
+}
+
+.profile {
+  position: relative;
+}
+
+.tgContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0em;
+}
+
+.user {
+  position: relative;
+}
+
+.statusIndicator {
+  width: 15px;
+  height: 15px;
+  background-image: linear-gradient(#b1fe95 50%, #c1ffae);
+  border-radius: 50%;
+  bottom: 4px;
+  right: 0px;
+  position: absolute;
+}
+
+.profile {
+  background-image: linear-gradient(#ffe393, #ffecb0);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile img {
+  max-width: 100%;
+}
+
+.account {
+  display: flex;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 1em;
+  line-height: normal;
+}
+
+.username {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.accType {
+  font-size: 0.8em;
+}
+
+.notificationContainer {
+  position: relative;
+}
+
+.settingsbtn {
+  display: flex;
+}
+
+.notification,
+.settings {
+  border: 1px solid var(--gray);
+  border-radius: 16px;
+  padding: 6px 8px;
+  margin: 0 0 0 0.8em;
+}
+
+.indicator {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  color: white;
+  background-color: var(--red);
+}
