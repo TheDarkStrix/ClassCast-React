@@ -12,3 +12,8 @@
   display: flex;
   justify-content: center;
 }
+
+.dots img {
+  max-width: 100%;
+  width: 30px;
+}

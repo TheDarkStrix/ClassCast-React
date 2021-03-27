@@ -7,3 +7,14 @@
   overflow: auto;
   display: inline-block;
 }
+
+@media screen and (max-width: 576px) {
+  .sideBarContainer {
+    width: 100%;
+    display: block;
+    position: relative;
+    right: 0;
+    height: 100vh;
+    overflow: auto;
+  }
+}
