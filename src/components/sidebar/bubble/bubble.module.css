@@ -11,6 +11,11 @@
   margin: 2em 0;
   position: relative;
   z-index: 3;
+  transition: all 0.2s ease;
+}
+
+.bubble:hover {
+  transform: scale(1.03);
 }
 
 .leftBubble,
@@ -36,6 +41,12 @@
   background-color: #fac952;
   border: 2px solid #fdcb58;
   border-radius: 14px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.05);
 }
 
 .rightBubbleText {

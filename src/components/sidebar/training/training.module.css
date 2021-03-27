@@ -27,6 +27,11 @@
   border: 2px solid white;
   margin: 15px 0 15px 0;
   z-index: 3;
+  transition: all 0.2s ease;
+}
+
+.trainingBox:hover {
+  transform: scale(1.02);
 }
 
 .trainingBoxBehind {
