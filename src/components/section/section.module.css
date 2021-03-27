@@ -1,0 +1,6 @@
+.section {
+  background-image: linear-gradient(white 80%, #f9fafe);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 1em 15px;
+}

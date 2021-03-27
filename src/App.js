@@ -6,19 +6,20 @@ import SideBarContainer from "./components/sidebar/sidebarContainer/sidebarConta
 import Training from "./components/sidebar/training/training";
 import Dots from "./components/sidebar/dots/dots";
 import Trainers from "./components/sidebar/trainers/trainers";
+import Section from "./components/section/section";
 
 function App() {
   return (
     <div className="App">
       <Container>
         <SideBarContainer>
-          <section className="section">
+          <Section>
             <Account />
             <Health />
             <Bubble />
             <Training />
             <Dots />
-          </section>
+          </Section>
           <Trainers />
         </SideBarContainer>
       </Container>
