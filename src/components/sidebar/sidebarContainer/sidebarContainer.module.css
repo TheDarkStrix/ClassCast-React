@@ -1,0 +1,9 @@
+.sideBarContainer {
+  width: 420px;
+  display: block;
+  position: absolute;
+  right: 0;
+  height: 100vh;
+  overflow: auto;
+  display: inline-block;
+}
